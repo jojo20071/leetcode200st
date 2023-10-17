@@ -1,3 +1,5 @@
+import time
+
 l = [[0,1,1],
      [1,0,1],
      [0,0,1]]
@@ -32,3 +34,9 @@ for r in range(len(l)):
         out.append(lx[r2]+ly[r])
 output.append(out)
 print(output)
+
+def wait (t):
+    time.sleep(t)
+
+wait(3)
+wait(2)
